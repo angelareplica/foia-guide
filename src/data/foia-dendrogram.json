@@ -1,0 +1,41 @@
+{
+  "children": [
+    {
+      "name": "Fulfilled",
+      "colname": "level2"
+    },
+    {
+      "name": "Rejected",
+      "children": [
+        {
+          "name": "Re-submit",
+          "colname": "level3"
+        },
+        {
+          "name": "Appeal",
+          "colname": "level3"
+        },
+        {
+          "name": "Mediation",
+          "colname": "level3"
+        }
+      ],
+      "colname": "level2"
+    },
+    {
+      "name": "No Response",
+      "children": [
+        {
+          "name": "Follow Up",
+          "colname": "level3"
+        },
+        {
+          "name": "Litigation",
+          "colname": "level3"
+        }
+      ],
+      "colname": "level2"
+    }
+  ],
+  "name": "Submit"
+}

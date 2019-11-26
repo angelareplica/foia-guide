@@ -1,0 +1,42 @@
+{
+  "name": "foia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url /foia"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/tests/setupTests.js"
+    ]
+  },
+  "keywords": [],
+  "author": "Angela Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "fetch-mock": "^7.7.3",
+    "glob": "^7.1.6",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "d3": "^5.14.2",
+    "d3-sankey": "^0.12.3",
+    "enter-view": "^2.0.0",
+    "jest": "^23.6.0",
+    "node-fetch": "^2.6.0",
+    "npm-check-updates": "^3.2.2",
+    "parcel": "^1.12.4",
+    "topojson": "^3.0.2"
+  }
+}

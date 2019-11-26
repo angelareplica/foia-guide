@@ -1,0 +1,228 @@
+body {
+  background-color:#F9EDE3;
+  color: black;
+  font-family: 'Merriweather Light';
+
+}
+
+.container {
+  max-width: 46rem;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Ubuntu Mono';
+  font-size: 75px;
+  background-image: url('/hed-paint.fe6aa95a.png');
+  background-repeat: no-repeat;
+  background-size: 450px 75px;
+  background-position: center;
+}
+
+a {
+  color: #BB1427;
+}
+
+a:hover {
+  color: #BB1427;
+  background-color: #FFD67C;
+}
+
+/* #chart-1 .axis line {
+  stroke: #999;
+  stroke-width: 0.5;
+  stroke-dasharray: 3 2;
+} */
+
+p small {
+  background: #fff880;
+}
+
+h2 {
+  color: black;
+  font-family: 'Ubuntu Mono';
+}
+
+h3 {
+  color: black;
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  /* background-image: url('images/hed-paint.png');
+  background-repeat: no-repeat;
+  background-size: 700px 100px;
+  background-position: center; */
+}
+
+h4 {
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 20px;
+  height: 20px;
+  width: 150px;
+}
+
+.records-list {
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Ubuntu Mono';
+  font-size: 13px;
+  background-color: #8ec1bc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+.fas {
+  color: #BB1427;
+}
+
+.far {
+  color: #BB1427;
+}
+
+.chart-hed {
+  font-size: 14px;
+  color: black;
+  font-family: 'Roboto';
+}
+
+.colored-text {
+  padding: 1px 7px;
+  display: inline-block;
+}
+
+.story-text {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+/* Set the sticky things 2% from the top */
+.sticky {
+  top: 0vh;
+  align-self: flex-start;  
+}
+
+/* Minimum height of 70% of the screen */
+.step {
+  min-height: 75vh;
+}
+
+.step > p {
+  background: rgba(255,255,255,0.9);
+  /* padding: 10px 0; */
+  margin-bottom: 0;
+  /* padding-bottom: 1rem; */
+}
+
+.step > ul, .step > h2, .step > h3 {
+  background: rgba(255,255,255,0.9);
+}
+
+#intro {
+  margin-top: -60px;
+  margin-bottom: -60px;
+  padding: -20;
+}
+
+.tooltip {  
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;    
+  /* border-radius: 5px;      */
+  pointer-events: none;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+ }
+
+ .tooltip-dend {
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;  
+  border-radius: 2px;      
+  pointer-events: none;
+  position: absolute;
+  font-size: 10px;
+  font-family: 'Roboto';
+  width: 200px;
+ }
+
+
+.waffle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  width: 450px;
+}
+
+.block {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 4px;
+
+}
+
+figure {
+  align-items: center;
+}
+
+.legend-squares {
+  width: 15px;
+  height: 15px;
+  margin: 15px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.note-waffle {
+font-size: 10px;
+margin-top: -10px;
+}
+
+.note-bar-chart {
+font-size: 10px;
+margin-top: -30px;
+font-family: 'Roboto';
+}
+
+.note-grouped-bar-chart {
+font-size: 10px;
+margin-top: -60px;
+}
+
+.dend-labels {
+  font-size: 17px;
+  font-family: 'Ubuntu Mono';
+  font-weight: bold;
+}
+
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
