@@ -153,15 +153,17 @@ li {
   font-family: 'Ubuntu Mono';
  }
 
- .tooltip-map {
+ .tooltip-dend {
   padding: 5px;       
   color: black;
-  background-color: #FFD4A2;
-  border: 0px;    
-  border-radius: 5px;     
+  background-color: #FFD67C;
+  border: 0px;  
+  border-radius: 2px;      
   pointer-events: none;
   position: absolute;
   font-size: 10px;
+  font-family: 'Roboto';
+  width: 200px;
  }
 
 
@@ -215,7 +217,7 @@ margin-top: -60px;
 }
 
 .dend-labels {
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Ubuntu Mono';
   font-weight: bold;
 }
