@@ -8,7 +8,7 @@ const margin = {
 }
 
 const width = 700 - margin.left - margin.right
-const height = 400 - margin.top - margin.bottom
+const height = 435 - margin.top - margin.bottom
 
 const svg = d3
   .select('#bar-chart')
@@ -46,19 +46,17 @@ d3.csv(require('./data/annual_foia_data.csv'))
   .then(ready)
   .catch(err => console.log('Failed on', err))
 
-function ready(datapoints) {
+function ready (datapoints) {
   // console.log(datapoints)
 
-  datapoints.forEach(function(d) {
+  datapoints.forEach(function (d) {
     d.datetime = parseTime(d.year)
   })
-  const years = datapoints.map(function(d) {
+  const years = datapoints.map(function (d) {
     return d.datetime
   })
 
-
   xPositionScale.domain(years)
-
 
   svg
     .selectAll('rect')
@@ -73,7 +71,7 @@ function ready(datapoints) {
     .attr('height', 0)
     .attr('fill', '#8ec1bc')
     .attr('opacity', '75%')
-    .on('mouseover', function(d) {
+    .on('mouseover', function (d) {
       // console.log(d)
 
       // make the bar chart highlight on mouseover
@@ -88,12 +86,12 @@ function ready(datapoints) {
         .style('opacity', 0.8)
 
       div
-        .html(formatComma(+d['requests']) + ' requests filed')
+        .html(formatComma(+d.requests) + ' requests filed')
         .style('left', d3.event.pageX + 'px')
         // .style('right', d3.event.pageX + 'px')
         .style('top', d3.event.pageY - 28 + 'px')
     })
-    .on('mouseout', function(d) {
+    .on('mouseout', function (d) {
       d3.select(this)
         .transition()
         .duration(100)
@@ -124,7 +122,6 @@ function ready(datapoints) {
     .tickFormat(d3.timeFormat('%Y'))
     .tickSize(5)
 
-
   svg
     .append('g')
     .attr('class', 'axis x-axis')
@@ -146,10 +143,10 @@ function ready(datapoints) {
       .transition()
       .duration(500)
       .attr('y', d => {
-        return yPositionScale(+d['requests'])
+        return yPositionScale(+d.requests)
       })
       .attr('height', d => {
-        return height - yPositionScale(+d['requests'])
+        return height - yPositionScale(+d.requests)
       })
   })
 }

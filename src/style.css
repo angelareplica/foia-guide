@@ -49,6 +49,7 @@ p small {
 h2 {
   color: black;
   font-family: 'Ubuntu Mono';
+  margin-top: 20px;
 }
 
 h3 {
@@ -70,7 +71,7 @@ h4 {
 }
 
 .divider {
-  margin: 20px;
+  margin: 40px;
   height: 20px;
   width: 150px;
 }
@@ -80,9 +81,10 @@ h4 {
   text-align: left;
   font-family: 'Ubuntu Mono';
   font-size: 13px;
-  background-color: #8ec1bc;
+  background-color: rgba(142, 193, 188, 0.8);
   margin-bottom: 20px;
   margin-top: 20px;
+  color: #464555;
 }
 
 li {
@@ -90,11 +92,13 @@ li {
 }
 
 .fas {
-  color: #BB1427;
+  color: #464555;
+  /* color: #BB1427; */
 }
 
 .far {
-  color: #BB1427;
+  color: #464555;
+  /* color: #BB1427; */
 }
 
 .chart-hed {
@@ -109,8 +113,8 @@ li {
 }
 
 .story-text {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: black;
 }
 
@@ -224,6 +228,7 @@ li {
   border-radius: 5px;
   /* font-weight: bold; */
   border: none;
+  transition-duration: 0.25s;
   
 }
 
