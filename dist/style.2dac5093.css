@@ -1,0 +1,259 @@
+body {
+  background-color:#F9EDE3;
+  color: black;
+  font-family: 'Merriweather Light';
+
+}
+
+.container {
+  max-width: 46rem;
+}
+
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Ubuntu Mono';
+  font-size: 75px;
+  background-image: url('hed-paint.190f4dbb.png');
+  background-repeat: no-repeat;
+  background-size: 450px 75px;
+  background-position: center;
+}
+
+a {
+  color: #BB1427;
+}
+
+a:hover {
+  color: #BB1427;
+  background-color: #FFD67C;
+}
+
+/* #chart-1 .axis line {
+  stroke: #999;
+  stroke-width: 0.5;
+  stroke-dasharray: 3 2;
+} */
+
+p small {
+  background: #fff880;
+}
+
+h2 {
+  color: black;
+  font-family: 'Ubuntu Mono';
+}
+
+h3 {
+  color: black;
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  /* background-image: url('images/hed-paint.png');
+  background-repeat: no-repeat;
+  background-size: 700px 100px;
+  background-position: center; */
+}
+
+h4 {
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 20px;
+  height: 20px;
+  width: 150px;
+}
+
+.records-list {
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Ubuntu Mono';
+  font-size: 13px;
+  background-color: #8ec1bc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+.fas {
+  color: #BB1427;
+}
+
+.far {
+  color: #BB1427;
+}
+
+.chart-hed {
+  font-size: 14px;
+  color: black;
+  font-family: 'Roboto';
+}
+
+.colored-text {
+  padding: 1px 7px;
+  display: inline-block;
+}
+
+.story-text {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+/* set the sticky things x% from the top */
+.sticky {
+  top: 3vh;
+  align-self: flex-start;  
+}
+
+/* minimum height of x% of the screen */
+.step {
+  min-height: 75vh;
+}
+
+.step > p {
+  background: none;
+  /* padding: 10px 0; */
+  margin-bottom: 0;
+  /* padding-bottom: 1rem; */
+}
+
+.step > ul, .step > h2, .step > h3 {
+  background: rgba(255,255,255,0.9);
+}
+
+#intro {
+  margin-top: -60px;
+  margin-bottom: -60px;
+  padding: -20;
+}
+
+.tooltip {  
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;    
+  /* border-radius: 5px;      */
+  pointer-events: none;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+ }
+
+ .tooltip.force {  
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;    
+  /* border-radius: 5px;      */
+  pointer-events: none;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+  font-size: 10px;
+ }
+
+ .tooltip-dend {
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;  
+  border-radius: 2px;      
+  pointer-events: none;
+  position: absolute;
+  font-size: 10px;
+  font-family: 'Roboto';
+  width: 200px;
+ }
+
+
+.block {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 4px;
+
+}
+
+.note-bar-chart {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  }
+
+.note-force-chart {
+    font-size: 10px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    }
+
+.dend-labels {
+  font-size: 17px;
+  font-family: 'Ubuntu Mono';
+  font-weight: bold;
+}
+
+.scrolltext-force {
+  font-family: 'Roboto';
+  color: black;
+  background-color: transparent;
+}
+
+.button {
+  /* display:inline-block; */
+  font-family: 'Ubuntu Mono';
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+  color: #F9EDE3;
+  background-color:#464555;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  border: none;
+  
+}
+
+.button:hover {
+  color: #464555;
+  border-color: currentColor;
+  background-color: #FFF7ED;
+}
+
+/* focus ring */
+.button:focus {
+  border: none;
+  outline: none;
+  background-color: #FFF7ED;
+  color: #464555;
+  box-shadow: 0 0 0 3px #464555,
+    0 0 0 1.5px #464555;
+}
+
+
+.label-jurisdiction {
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  color: black;
+}
+
+.label-success {
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  color: black;
+}
+
+

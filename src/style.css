@@ -9,6 +9,7 @@ body {
   max-width: 46rem;
 }
 
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -114,19 +115,19 @@ li {
 }
 
 
-/* Set the sticky things 2% from the top */
+/* set the sticky things x% from the top */
 .sticky {
-  top: 0vh;
+  top: 3vh;
   align-self: flex-start;  
 }
 
-/* Minimum height of 70% of the screen */
+/* minimum height of x% of the screen */
 .step {
   min-height: 75vh;
 }
 
 .step > p {
-  background: rgba(255,255,255,0.9);
+  background: none;
   /* padding: 10px 0; */
   margin-bottom: 0;
   /* padding-bottom: 1rem; */
@@ -153,6 +154,18 @@ li {
   font-family: 'Ubuntu Mono';
  }
 
+ .tooltip.force {  
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;    
+  /* border-radius: 5px;      */
+  pointer-events: none;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+  font-size: 10px;
+ }
+
  .tooltip-dend {
   padding: 5px;       
   color: black;
@@ -167,17 +180,6 @@ li {
  }
 
 
-.waffle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  align-items: center;
-  justify-content: left;
-  width: 450px;
-}
-
 .block {
   width: 25px;
   height: 25px;
@@ -186,40 +188,72 @@ li {
 
 }
 
-figure {
-  align-items: center;
-}
-
-.legend-squares {
-  width: 15px;
-  height: 15px;
-  margin: 15px;
-  border-radius: 2px;
-  font-size: 12px;
-  text-align: center;
-  vertical-align: center;
-}
-
-.note-waffle {
-font-size: 10px;
-margin-top: -10px;
-}
-
 .note-bar-chart {
-font-size: 10px;
-margin-top: -30px;
-font-family: 'Roboto';
-}
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  }
 
-.note-grouped-bar-chart {
-font-size: 10px;
-margin-top: -60px;
-}
+.note-force-chart {
+    font-size: 10px;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    }
 
 .dend-labels {
   font-size: 17px;
   font-family: 'Ubuntu Mono';
   font-weight: bold;
+}
+
+.scrolltext-force {
+  font-family: 'Roboto';
+  color: black;
+  background-color: transparent;
+}
+
+.button {
+  /* display:inline-block; */
+  font-family: 'Ubuntu Mono';
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+  color: #F9EDE3;
+  background-color:#464555;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  border: none;
+  
+}
+
+.button:hover {
+  color: #464555;
+  border-color: currentColor;
+  background-color: #FFF7ED;
+}
+
+/* focus ring */
+.button:focus {
+  border: none;
+  outline: none;
+  background-color: #FFF7ED;
+  color: #464555;
+  box-shadow: 0 0 0 3px #464555,
+    0 0 0 1.5px #464555;
+}
+
+
+.label-jurisdiction {
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  color: black;
+}
+
+.label-success {
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  color: black;
 }
 
 
