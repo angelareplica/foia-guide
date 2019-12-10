@@ -10,6 +10,7 @@
       <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
       <script src="https://kit.fontawesome.com/4a8e942f75.js" crossorigin="anonymous"></script>
 
   </head>
@@ -126,7 +127,7 @@
 
       
       <div class="row">
-          <div class="col-12-lg sticky">
+          <div class="col-12-lg">
             <h2>Top-requested agencies</h2>
             <p class="chart-hed">The vast majority of requests go to a small handful of agencies. The Department of Homeland Security and its myriad components received 46% of all FOIA requests filed in 2018.</p>
             <!-- <p class="d-flex justify-content-center"> -->
@@ -181,12 +182,17 @@
 
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-10 sticky">
                 <h2>State open records laws </h2>
-                <p class="chart-hed">TBD - this will probably be a US map</p>
-             <!-- </div> -->
-              <div id="state-foi-map"></div>
-              <div class="note-bar-chart">SOURCE: Blahblahblah</div>
+                <p class="chart-hed">Every state has its own open records and open meetings laws. Hover for more information, and click for a detailed public records guide.</p>
+                <div id="state-foi-map"></div>
+                <div class="note-bar-chart">SOURCE: <a href="https://www.muckrock.com/place/" target="_blank">MuckRock</a></div>
+              </div>
+            <div class="col-lg-2">
+              <div class="step" id="start-map"><div class="scroll-text"></div></div>
+              <div class="step" id="allowed-response-map"><div class="scroll-text">Most states specify response deadlines ranging between <span style="color: #64C6B0; font-weight: 900">3 days</span> and <span style="color: #F0AB51; font-weight: 900">15 days</span>. Some states have <span style="color: #C25451; font-weight: 900">no limit</span>.</div></div>
+              <div class="step" id="actual-response-map"><div class="scroll-text">Completing requests typically takes state agencies several weeks.</div></div>
+              <div class="step" id="end-map"><div class="scroll-text">On average, state agencies still respond much faster to records requests than <a href="https://www.muckrock.com/place/united-states-of-america/" target="_blank">federal agencies</a>.</div></div>
             </div>
         </div>
 
@@ -196,7 +202,7 @@
         <div class="row">
             <div class="col-lg-12">
               <div class="story-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
          </div>
@@ -246,8 +252,10 @@
 
     <script src="annual-bar-chart.js"></script>
     <script src="force-chart.js"></script>
+    <script src="state-map.js"></script>
     <script src="dendrogram.js"></script>
     <script src="scrollytelling.js"></script>
+    
 
     </div>
    </body>

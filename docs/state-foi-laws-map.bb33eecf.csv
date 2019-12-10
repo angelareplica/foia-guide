@@ -1,0 +1,52 @@
+allowed_response_time,avg_response_time,state,url,x,y,abbrev,allowed_response_time_int,avg_response_time_int
+No limit,108 days,Alabama,https://www.muckrock.com/place/united-states-of-america/alabama/,6,6,AL,0,108
+10 days,90 days,Alaska,https://www.muckrock.com/place/united-states-of-america/alaska/,0,0,AK,10,90
+No limit,101 days,Arizona,https://www.muckrock.com/place/united-states-of-america/arizona/,2,5,AZ,0,101
+3 days,54 days,Arkansas,https://www.muckrock.com/place/united-states-of-america/arkansas/,5,5,AR,3,54
+10 days,60 days,California,https://www.muckrock.com/place/united-states-of-america/california/,0,4,CA,10,60
+3 days,53 days,Colorado,https://www.muckrock.com/place/united-states-of-america/colorado/,3,4,CO,3,53
+4 days,62 days,Connecticut,https://www.muckrock.com/place/united-states-of-america/connecticut/,10,2,CT,4,62
+15 days,92 days,District Of Columbia,https://www.muckrock.com/place/united-states-of-america/district-of-columbia/,10,4,DE,15,92
+15 days,69 days,Delaware,https://www.muckrock.com/place/united-states-of-america/delaware/,8,4,DC,15,69
+No limit,64 days,Florida,https://www.muckrock.com/place/united-states-of-america/florida/,7,7,FL,0,64
+3 days,50 days,Georgia,https://www.muckrock.com/place/united-states-of-america/georgia/,7,6,GA,3,50
+10 days,84 days,Hawaii,https://www.muckrock.com/place/united-states-of-america/hawaii/,0,7,HI,10,84
+3 days,22 days,Idaho,https://www.muckrock.com/place/united-states-of-america/idaho/,2,3,ID,3,22
+5 days,44 days,Illinois,https://www.muckrock.com/place/united-states-of-america/illinois/,6,3,IL,5,44
+7 days,47 days,Indiana,https://www.muckrock.com/place/united-states-of-america/indiana/,7,3,IN,7,47
+10 days,51 days,Iowa,https://www.muckrock.com/place/united-states-of-america/iowa/,5,3,IA,10,51
+3 days,56 days,Kansas,https://www.muckrock.com/place/united-states-of-america/kansas/,4,4,KS,3,56
+3 days,35 days,Kentucky,https://www.muckrock.com/place/united-states-of-america/kentucky/,6,4,KY,3,35
+3 days,97 days,Louisiana,https://www.muckrock.com/place/united-states-of-america/louisiana/,4,6,LA,3,97
+5 days,36 days,Maine,https://www.muckrock.com/place/united-states-of-america/maine/,11,0,ME,5,36
+10 days,59 days,Maryland,https://www.muckrock.com/place/united-states-of-america/maryland/,9,4,MD,10,59
+10 days,76 days,Massachusetts,https://www.muckrock.com/place/united-states-of-america/massachusetts/,11,1,MA,10,76
+5 days,44 days,Michigan,https://www.muckrock.com/place/united-states-of-america/michigan/,7,2,MI,5,44
+No limit,78 days,Minnesota,https://www.muckrock.com/place/united-states-of-america/minnesota/,5,2,MN,0,78
+7 days,114 days,Mississippi,https://www.muckrock.com/place/united-states-of-america/mississippi/,5,6,MS,7,114
+3 days,51 days,Missouri,https://www.muckrock.com/place/united-states-of-america/missouri/,5,4,MO,3,51
+No limit,42 days,Montana,https://www.muckrock.com/place/united-states-of-america/montana/,2,2,MT,0,42
+4 days,25 days,Nebraska,https://www.muckrock.com/place/united-states-of-america/nebraska/,4,3,NE,4,25
+5 days,82 days,Nevada,https://www.muckrock.com/place/united-states-of-america/nevada/,1,4,NV,5,82
+5 days,38 days,New Hampshire,https://www.muckrock.com/place/united-states-of-america/new-hampshire/,10,1,NH,5,38
+7 days,60 days,New Jersey,https://www.muckrock.com/place/united-states-of-america/new-jersey/,10,3,NJ,7,60
+15 days,130 days,New Mexico,https://www.muckrock.com/place/united-states-of-america/new-mexico/,3,5,NM,15,130
+5 days,93 days,New York,https://www.muckrock.com/place/united-states-of-america/new-york/,9,2,NY,5,93
+No limit,74 days,North Carolina,https://www.muckrock.com/place/united-states-of-america/north-carolina/,8,5,NC,0,74
+No limit,32 days,North Dakota,https://www.muckrock.com/place/united-states-of-america/north-dakota/,3,2,ND,0,32
+No limit,64 days,Ohio,https://www.muckrock.com/place/united-states-of-america/ohio/,8,3,OH,0,64
+No limit,97 days,Oklahoma,https://www.muckrock.com/place/united-states-of-america/oklahoma/,4,5,OK,0,97
+No limit,110 days,Oregon,https://www.muckrock.com/place/united-states-of-america/oregon/,1,3,OR,0,110
+5 days,65 days,Pennsylvania,https://www.muckrock.com/place/united-states-of-america/pennsylvania/,9,3,PA,5,65
+10 days,19 days,Rhode Island,https://www.muckrock.com/place/united-states-of-america/rhode-island/,11,2,RI,10,19
+15 days,73 days,South Carolina,https://www.muckrock.com/place/united-states-of-america/south-carolina/,8,6,SC,15,73
+10 days,30 days,South Dakota,https://www.muckrock.com/place/united-states-of-america/south-dakota/,4,2,SD,10,30
+7 days,56 days,Tennessee,https://www.muckrock.com/place/united-states-of-america/tennessee/,6,5,TN,7,56
+10 days,60 days,Texas,https://www.muckrock.com/place/united-states-of-america/texas/,3,6,TX,10,60
+10 days,71 days,Utah,https://www.muckrock.com/place/united-states-of-america/utah/,2,4,UT,10,71
+3 days,34 days,Vermont,https://www.muckrock.com/place/united-states-of-america/vermont/,9,1,VT,3,34
+5 days,35 days,Virginia,https://www.muckrock.com/place/united-states-of-america/virginia/,7,5,VA,5,35
+5 days,73 days,Washington,https://www.muckrock.com/place/united-states-of-america/washington/,1,2,WA,5,73
+5 days,43 days,West Virginia,https://www.muckrock.com/place/united-states-of-america/west-virginia/,7,4,WV,5,43
+No limit,51 days,Wisconsin,https://www.muckrock.com/place/united-states-of-america/wisconsin/,6,2,WI,0,51
+7 days,64 days,Wyoming,https://www.muckrock.com/place/united-states-of-america/wyoming/,3,3,WY,7,64

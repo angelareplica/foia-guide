@@ -121,14 +121,16 @@ li {
 
 /* set the sticky things x% from the top */
 .sticky {
-  top: 3vh;
+  top: 0vh;
   align-self: flex-start;  
 }
 
 /* minimum height of x% of the screen */
 .step {
   min-height: 75vh;
+  margin-left: -10px;
 }
+
 
 .step > p {
   background: none;
@@ -152,18 +154,27 @@ li {
   color: black;
   background-color: #FFD67C;
   border: 0px;    
-  /* border-radius: 5px;      */
   pointer-events: none;
   position: absolute;
   font-family: 'Ubuntu Mono';
+ }
+
+ .tooltip-map {  
+  padding: 5px;       
+  color: black;
+  background-color: #FFD67C;
+  border: 0px;
+  pointer-events: none;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+  font-size: 10px;
  }
 
  .tooltip.force {  
   padding: 5px;       
   color: black;
   background-color: #FFD67C;
-  border: 0px;    
-  /* border-radius: 5px;      */
+  border: 0px;      
   pointer-events: none;
   position: absolute;
   font-family: 'Ubuntu Mono';
@@ -259,6 +270,24 @@ li {
   font-family: 'Ubuntu Mono';
   font-size: 20px;
   color: black;
+}
+
+/* .state-square {
+  fill: #8ec1bc;
+  stroke: #464555;
+  opacity: 0.75;
+} */
+
+.state-square-label {
+  fill: #464555;
+
+}
+
+
+.scroll-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 100;
 }
 
 
