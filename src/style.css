@@ -215,6 +215,16 @@ li {
     margin-top: 50px;
     }
 
+.radar-labels {
+  font-family: 'Ubuntu Mono';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.radar-band-labels {
+  font-family: 'Ubuntu Mono';
+}
+
 .dend-labels {
   font-size: 17px;
   font-family: 'Ubuntu Mono';
