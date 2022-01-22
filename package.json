@@ -33,7 +33,7 @@
     "d3": "^5.14.2",
     "enter-view": "^2.0.0",
     "jest": "^23.6.0",
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^3.1.1",
     "parcel": "^1.9.7",
     "topojson": "^3.0.2"
   }
