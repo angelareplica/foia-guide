@@ -30,7 +30,7 @@
     "prettier": "^1.14.2"
   },
   "dependencies": {
-    "d3": "^5.14.2",
+    "d3": "^7.6.1",
     "enter-view": "^2.0.0",
     "jest": "^23.6.0",
     "node-fetch": "^2.2.0",
