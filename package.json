@@ -32,9 +32,9 @@
   "dependencies": {
     "d3": "^5.14.2",
     "enter-view": "^2.0.0",
-    "jest": "^23.6.0",
+    "jest": "^29.3.1",
     "node-fetch": "^2.2.0",
-    "parcel": "^1.9.7",
+    "parcel": "^1.12.4",
     "topojson": "^3.0.2"
   }
 }
